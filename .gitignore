@@ -1,0 +1,12 @@
+node_modules/
+dist/
+release/
+vendor/
+.env
+*.log
+test/out/
+*.db
+*.db-wal
+*.db-shm
+Thumbs.db
+.DS_Store

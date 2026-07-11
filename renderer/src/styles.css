@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ink-950: #0b0d12;
+  --color-ink-900: #10131a;
+  --color-ink-850: #151923;
+  --color-ink-800: #1b2030;
+  --color-ink-700: #262d40;
+  --color-accent-400: #818cf8;
+  --color-accent-500: #6366f1;
+  --color-accent-600: #4f46e5;
+}
+
+html, body, #root { height: 100%; }
+body {
+  background: var(--color-ink-950);
+  color: #e5e9f2;
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-thumb { background: #262d40; border-radius: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+
+input, select, textarea { color-scheme: dark; }
+
+.field {
+  width: 100%; border-radius: 0.5rem; background: var(--color-ink-800);
+  border: 1px solid var(--color-ink-700); padding: 0.5rem 0.75rem; font-size: 0.875rem;
+  transition: border-color 0.15s;
+}
+.field::placeholder { color: #64748b; }
+.field:focus { outline: none; border-color: var(--color-accent-500); }
+
+.btn {
+  display: inline-flex; align-items: center; gap: 0.5rem; border-radius: 0.5rem;
+  padding: 0.5rem 0.875rem; font-size: 0.875rem; font-weight: 500;
+  transition: background-color 0.15s; cursor: pointer; user-select: none;
+  border: 1px solid transparent;
+}
+.btn:disabled { opacity: 0.5; cursor: not-allowed; }
+.btn-primary { background: var(--color-accent-600); color: #fff; }
+.btn-primary:hover { background: var(--color-accent-500); }
+.btn-ghost { background: var(--color-ink-800); color: #e2e8f0; border-color: var(--color-ink-700); }
+.btn-ghost:hover { background: var(--color-ink-700); }
+.btn-danger { background: rgba(127, 29, 29, 0.4); color: #fca5a5; border-color: rgba(127, 29, 29, 0.6); }
+.btn-danger:hover { background: rgba(127, 29, 29, 0.7); }
+
+.card { border-radius: 0.75rem; background: var(--color-ink-900); border: 1px solid var(--color-ink-800); }
+.label {
+  display: block; font-size: 11px; font-weight: 600; text-transform: uppercase;
+  letter-spacing: 0.08em; color: #64748b; margin-bottom: 0.25rem;
+}
