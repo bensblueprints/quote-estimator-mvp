@@ -55,7 +55,7 @@ At $19/mo, Quotewell pays for itself in about **1.5 months** — then it's free 
 
 Want the 1-click Windows installer instead of building from source? Grab the packaged version:
 
-**[Get Quotewell on Whop → https://whop.com/onetime-suite](https://whop.com/onetime-suite)**
+**[Get Quotewell on Whop → https://whop.com/benjisaiempire/quotewell](https://whop.com/benjisaiempire/quotewell)**
 
 Same MIT-licensed code, zero setup, plus you're buying the next tool in the suite into existence.
 
