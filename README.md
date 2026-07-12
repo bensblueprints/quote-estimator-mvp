@@ -62,3 +62,7 @@ Same MIT-licensed code, zero setup, plus you're buying the next tool in the suit
 ## License
 
 MIT — see [LICENSE](LICENSE). Part of the [OneTime Suite](https://github.com/bensblueprints): 50 pay-once replacements for subscription software.
+
+## macOS build
+
+See [MAC-BUILD.md](MAC-BUILD.md). Quickest path: GitHub **Actions** tab -> run the **Mac Build** (`mac-build.yml`) workflow to get a downloadable `.dmg` (unsigned - right-click -> Open on first launch).
